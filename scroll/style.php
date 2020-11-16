@@ -72,8 +72,8 @@ h1 {
   width: <?=$width ?>;
   min-width: 150px;
   min-height: 200px;
-  top: 50%;
-  left: 50%;
+  top: <?=$book_top ?>;
+  left: <?=$book_left ?>;
   transform: translate(-50%, -50%) scale(0.5);
   transform-style: preserve-3d;
   perspective: 1200px;
